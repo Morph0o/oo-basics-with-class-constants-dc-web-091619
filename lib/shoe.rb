@@ -4,7 +4,7 @@ class Shoe
 BRANDS = [].uniq()
   def initialize(brand)
     @brand = brand
-    if BRANDS.!include?(@brand)
+    if !BRANDS.include?(@brand)
     BRANDS.push(@brand)
   end
     
